@@ -11,7 +11,7 @@ img{
 .grow:hover img,
 .grow:focus img{
   filter: brightness(80%);
-  transform: scale(1.25);
+  transform: scale(1.5);
   transition: 2s;
 }
 
@@ -43,6 +43,9 @@ h1{
   font-size: 72px;
   text-align: center;
 }
+p{
+  font-size: 20px;
+}
 nav, .navbar{
   padding: 0;
 }
@@ -51,6 +54,12 @@ nav, .navbar{
   left: 2%;
   right: 2%;
   padding: 0;
+}
+.carousel-control-next, .carousel-control-prev{
+  opacity: 1;
+}
+.prpl{
+  background: #614ba3;
 }
 .trial{
   height: 45vh;
@@ -101,6 +110,6 @@ nav, .navbar{
     width: 90vw;
   }
   h1{
-    font-size: 68px;
+    font-size: 60px;
   }
 }

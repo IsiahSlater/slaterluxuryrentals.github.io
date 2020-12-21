@@ -38,7 +38,17 @@
         <div class="nav navbar-nav w-100 justify-content-around">
           <a href="index.htm" class="nav-item nav-link">Home</a>
           <a href="about.htm" class="nav-item nav-link">About</a>
-          <a href="#" class="nav-item nav-link active">Rentals</a>
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Rentals
+            </a>
+            <div class="dropdown-menu prpl" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="rentals.htm">All Rentals</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item active" href="franklin.htm">Franklin Apartments</a>
+              <a class="dropdown-item" href="rentals.htm#cotton">Cottonwood House</a>
+            </div>
+          </div>
           <a href="#contact" class="nav-item nav-link">Contact</a>
         </div>
       </div>
@@ -49,9 +59,9 @@
       <div class="w-100 py-5 bg-dark">
         <h1 class="mw-100">Franklin Apartments</h1>
         <h3 class="text-center p-3">703 North Franklin Street</h3>
-        <p class="text-center">Located a short walk away from Truman State University and AT Still University</p>
+        <p class="text-center px-4">Located a short walk away from Truman State University and AT Still University</p>
       </div>
-      <ul class="nav nav-tabs justify-content-around bg-dark">
+      <ul class="nav nav-tabs justify-content-around prpl">
         <li><a data-toggle="tab" href="#firstFloor" class="active">First Floor</a></li>
         <li><a data-toggle="tab" href="#secondFloor">Second Floor</a></li>
         <li><a data-toggle="tab" href="#thirdFloor">Third Floor</a></li>
@@ -65,7 +75,7 @@
 
           <div id="firstFloor" class="tab-pane active">
             <h2 class="mt-5">First Floor</h2>
-            <p>The first floor offers 2 bathrooms and 4 bedrooms. The floor is priced at $1200/mo</p>
+            <p class="">The first floor offers 2 bathrooms and 4 bedrooms. The floor is priced at $1200/mo</p>
 
             <div id="first" class="carousel slide active" data-interval="false" data-ride="carousel">
               <ol class="carousel-indicators bg-dark py-3">
