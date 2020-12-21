@@ -28,6 +28,7 @@ a{
   font-weight: bold;
   transition: .25s;
 }
+
 a:hover{
   color: #fff;
 }
